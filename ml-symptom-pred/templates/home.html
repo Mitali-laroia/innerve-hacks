@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Flower Variety</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        /* html{
+            overflow: hidden;
+        } */
+
+        body{
+            position: absolute;
+            width: 100%;
+            height: 1000px;
+            margin: 0;
+            padding: 0;
+        }
+
+        #login-form-container{
+            position: absolute;
+            width: 100%;
+            height: 1000px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>	
+<body>
+    <div id="login-form-container">
+        <form action="classify" method="GET">
+            <div class="card" style="width: 400px">
+            <div class="card-content">
+                <div class="media">
+                <div class="is-size-4 has-text-centered">PCOS Prediction</div>
+                </div>
+                <div class="content">
+
+                <div class="field">
+                    <p class="control">
+                        How old are you? <input class="input" type="number" value='0.00' step='0.01' name="a" id="a">
+                    </p>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                        Have you ever been pregnant? <input class="input" type="number" value='0.00' step='0.01' name="b" id="b">
+                    </p>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                        Have you ever had an abortion, if yes how many? (if not, please enter 0) <input class="input" type="number" value='0.00' step='0.01' name="c" id="c">
+                    </p>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                        Do you feel bloated in these past few weeks? <input class="input" type="number" value='0.00' step='0.01' name="d" id="d">
+                    </p>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                        Do you get a lot of facial hair? <input class="input" type="number" value='0.00' step='0.01' name="e" id="e">
+                    </p>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                        Do you have any chest hair? <input class="input" type="number" value='0.00' step='0.01' name="f" id="f">
+                    </p>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                        Have you been facing difficulty in loosing weight? <input class="input" type="number" value='0.00' step='0.01' name="g" id="g">
+                    </p>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                        Do you feel too moody? <input class="input" type="number" value='0.00' step='0.01' name="h" id="h">
+                    </p>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                        In general, do you feel depressed or stressed out at times? <input class="input" type="number" value='0.00' step='0.01' name="i" id="i">
+                    </p>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                        Do you sleep well at night? <input class="input" type="number" value='0.00' step='0.01' name="j" id="j">
+                    </p>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                        We know this could be depressing but have you recently gained weight <input class="input" type="number" value='0.00' step='0.01' name="k" id="k">
+                    </p>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                        Have you seen your hair grow in the past couple of months? <input class="input" type="number" value='0.00' step='0.01' name="k" id="k">
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control">
+                        Has your skin darkened in the recent months? <input class="input" type="number" value='0.00' step='0.01' name="l" id="l">
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control">
+                        Have you suffered from hair loss recently? <input class="input" type="number" value='0.00' step='0.01' name="m" id="m">
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control">
+                        We know that pimples always pop up at the wrong times but is that frequent with you? <input class="input" type="number" value='0.00' step='0.01' name="n" id="n">
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control">
+                        Burger King could be awfully delicious at times but do you consume fast-food frequently? <input class="input" type="number" value='0.00' step='0.01' name="o" id="o">
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control">
+                        Do you exercise regularly? <input class="input" type="number" value='0.00' step='0.01' name="p" id="p">
+                    </p>
+                </div>
+                
+                <div class="field">
+                    <button class="button is-fullwidth is-rounded is-success">Submit</button>
+                </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
