@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send SMS APP</title>
+    <link rel="stylesheet" href="css/sms.css">
+    <link rel="stylesheet" href="css/stylesheet.css"></link>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Send Message</h2>
+        <!-- phone number input field -->
+        <input type="tel" name="number" class="input" id ="number" placeholder="Enter phone number">
+
+        <!-- message input field -->
+        <textarea  rows="4" cols="50"  name="msg" id ="message" placeholder="Enter message here..."></textarea>
+
+        <!-- submit button -->
+        <div class="button-container">
+            <button type="button" id ="button" value="Send">Send Message</button>
+        </div>
+       
+        <!-- Socket.io response in a paragraph -->
+        <p class="response">
+           
+        </p>
+    </div>
+
+    <!-- link to js scripts and socket -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/sms.js"></script>
+    <script src="./js/index.js" charset="utf-8"></script>
+</body>
+</html>
