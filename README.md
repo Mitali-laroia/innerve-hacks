@@ -1,5 +1,5 @@
 # Mind Space
-![image](https://user-images.githubusercontent.com/54024297/132117898-f81cc91d-bf7b-4b92-8a97-b3fff74e3a31.png)
+![image](https://user-images.githubusercontent.com/54024297/138581704-5ca73c5a-8c34-4685-9043-cf5c80c0ece4.png)
 
 > The aim is to spread awareness about PCOD/PCOS (not only to those who have access to internet but to everyone!)and help those who already are suffering from this disorder.
 > Live demo [_here_](https://mindspace1.herokuapp.com/)<!-- If you have the project hosted somewhere, include the link here. -->
@@ -48,10 +48,10 @@ List the ready features here:
 
 
 ## Screenshots
-![image](https://user-images.githubusercontent.com/54024297/132117907-1e73e171-9763-42f0-911b-aee1d8da80f3.png)
-![image](https://user-images.githubusercontent.com/54024297/132117910-cdec7d7a-c4c0-45f6-8625-a46ee9f676a3.png)
-![image](https://user-images.githubusercontent.com/54024297/132117912-48f13a78-ff98-48f4-85ea-1382d7beae65.png)
-![image](https://user-images.githubusercontent.com/54024297/132117916-e8d05b9b-231b-4a51-9f05-e114667b6e99.png)
+![image](https://user-images.githubusercontent.com/54024297/138581657-3daf3da7-1dac-4c95-94dc-b2669391856c.png)
+![image](https://user-images.githubusercontent.com/54024297/138581674-e05b6110-2889-47f1-aa5c-55d5f8c6aad0.png)
+![image](https://user-images.githubusercontent.com/54024297/138581682-4d616b56-d0cd-46c3-b561-f86fe5a26eca.png)
+![image](https://user-images.githubusercontent.com/54024297/138581688-8aba6284-140d-4471-9860-21ab633237e0.png)
 
 <!-- If you have screenshots you'd like to share, include them here. -->
 
